@@ -49,16 +49,16 @@ python3.7 版本与 Django 结合，学习并实现最简单的blog。
       
       之后，通过  http://127.0.0.1:8000/admin 路径可查看 admin 管理台。
     
-    2.6 Django 项目环境终端
+  2.6 Django 项目环境终端
         python manage.py shell
       
-  3. 项目目录下的 settings.py  可 添加blogsite， 配置数据库， 国际化等。（设置管理台 中文展示： LANGUAGE_CODE = 'zh-hans' ）
+ 3. 项目目录下的 settings.py  可 添加blogsite， 配置数据库， 国际化等。（设置管理台 中文展示： LANGUAGE_CODE = 'zh-hans' ）
    
-  4. 项目目录下urls.py 与blogsite中创建的urls.py 通过 include()函数关联。
+ 4. 项目目录下urls.py 与blogsite中创建的urls.py 通过 include()函数关联。
    
-  5.  blogsite 中涉及 html 页面，可以创建templates文件夹存放。
+ 5.  blogsite 中涉及 html 页面，可以创建templates文件夹存放。
   
-  6. ASiteByDjango/urls.py ——> blogsite/urls.py ——>  blogsite/views.py ——> xxx.html  
+ 6. ASiteByDjango/urls.py ——> blogsite/urls.py ——>  blogsite/views.py ——> xxx.html  
       
       
       
