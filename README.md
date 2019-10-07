@@ -21,7 +21,7 @@ python3.7 版本与 Django 结合，学习并实现最简单的blog。
   2.3 启动项目：  python3 manage.py runserver （http://127.0.0.1:8000）
   
   2.4 model: 
-      2.4.1 在 app blogsite 的 models.py 中创建对象Article：
+    2.4.1 在 app blogsite 的 models.py 中创建对象Article：
         from django.db import models
 
 
@@ -34,13 +34,14 @@ python3.7 版本与 Django 结合，学习并实现最简单的blog。
           def __str__(self):
              return self.title
           
-      2.4.2 将对象与数据库连接：
+   2.4.2 将对象与数据库连接：
+       
        执行命令 ： python manage.py makemigrations
                   python manage.py migrate
     
-      执行完成后，blogsite 下文件夹 migrations 中，存在 0001_initial.py文件
+    执行完成后，blogsite 下文件夹 migrations 中，存在 0001_initial.py文件
      
-       项目目录下生成db.sqlite3文件。可使用Navicate查看创建的对象
+    项目目录下生成db.sqlite3文件。可使用Navicate查看创建的对象
      
    2.5 Admin:
       
